@@ -36,7 +36,7 @@ local text_bold = false                             -- Enable bold text formatti
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
-local typing_sound = "Cake - testing 2026-02-21 10_34"       -- Sound for typing (You can use MC sounds, or sound files)
+local typing_sound = "block.note_block.basedrum"       -- Sound for typing (You can use MC sounds, or sound files)
 local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
@@ -56,8 +56,8 @@ local outline_color = {0.0, 0.0, 0.0}               -- Outline color (RGB, 0-1)
 local enable_shadow = true                          -- Enable text shadow
 local enable_see_through = true                     -- Make text visible through blocks
 local enable_text_hover = true                      -- Makes text gently hover/sway
-local hover_intensity = 0.7                         -- How much the text sways (higher = more sway)
-local hover_speed = 0.03                            -- Speed of the hover/sway (lower = slower, higher = faster)
+local hover_intensity = 10.0                         -- How much the text sways (higher = more sway)
+local hover_speed = 0.01                            -- Speed of the hover/sway (lower = slower, higher = faster)
 
 -- Text Display Settings
 local chars_delay = 1                               -- Typing speed (lower = faster, higher = slower)
