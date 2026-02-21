@@ -56,8 +56,8 @@ local outline_color = {0.0, 0.0, 0.0}               -- Outline color (RGB, 0-1)
 local enable_shadow = true                          -- Enable text shadow
 local enable_see_through = true                     -- Make text visible through blocks
 local enable_text_hover = true                      -- Makes text gently hover/sway
-local hover_intensity = 10.0                         -- How much the text sways (higher = more sway)
-local hover_speed = 0.20                            -- Speed of the hover/sway (lower = slower, higher = faster)
+local hover_intensity = 0.7                         -- How much the text sways (higher = more sway)
+local hover_speed = 0.7                            -- Speed of the hover/sway (lower = slower, higher = faster)
 
 -- Text Display Settings
 local chars_delay = 1                               -- Typing speed (lower = faster, higher = slower)
