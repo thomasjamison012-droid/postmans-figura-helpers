@@ -57,7 +57,7 @@ local enable_shadow = true                          -- Enable text shadow
 local enable_see_through = true                     -- Make text visible through blocks
 local enable_text_hover = true                      -- Makes text gently hover/sway
 local hover_intensity = 10.0                         -- How much the text sways (higher = more sway)
-local hover_speed = 0.01                            -- Speed of the hover/sway (lower = slower, higher = faster)
+local hover_speed = 10.00                            -- Speed of the hover/sway (lower = slower, higher = faster)
 
 -- Text Display Settings
 local chars_delay = 1                               -- Typing speed (lower = faster, higher = slower)
