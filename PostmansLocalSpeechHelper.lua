@@ -26,18 +26,18 @@ local model_path = models.localspeech    -- Path to the localspeech model
 -- Text Appearance Settings
 local hide_nameplate_during_speech = true           -- Hide nameplate while text is showing
 local default_text_color = "#FFFFFF"              -- Default color for uncolored text (hex format)
-local text_scale = 0.4                              -- Size of the text (higher = bigger)
+local text_scale = 0.10                             -- Size of the text (higher = bigger)
 local text_x_position = -19                         -- X position of text (-30 is default)
 local text_y_position = 28                          -- Y position of text (20 is default)
 local text_z_position = -10                         -- Z position of text (default is -5)
 local text_alignment = "CENTER"                     -- Alignment of text (LEFT, CENTER, RIGHT)
 local text_width = 150                              -- Width of text box
-local text_bold = false                             -- Enable bold text formatting
+local text_bold = true                             -- Enable bold text formatting
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
 local typing_sound = "block.note_block.basedrum"       -- Sound for typing (You can use MC sounds, or sound files)
-local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
+local normal_pitch_range = {20, 50}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
 local sound_volume = 0.5                            -- Volume of typing sounds (0-1)
