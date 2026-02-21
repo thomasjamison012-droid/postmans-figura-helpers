@@ -72,7 +72,7 @@ local hold_time_multiplier = 1.5                    -- Overall multiplier for ca
 local minimum_hold_time = 100                       -- Minimum message hold time in ticks (prevents short messages from disappearing too quickly)
 
 -- Typing Indicator Settings
-local enable_typing_indicator = true                -- Enable a typing indicator when your textbox is open
+local enable_typing_indicator = false                -- Enable a typing indicator when your textbox is open
 local typing_indicator_text = "I am typing"         -- Base text for typing indicator
 local typing_indicator_scale = 0.4                  -- Size of typing indicator text
 local typing_indicator_x = 10                       -- X position relative to player
