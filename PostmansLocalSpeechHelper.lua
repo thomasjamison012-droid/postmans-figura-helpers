@@ -50,14 +50,14 @@ local globalandlocal_chat_prefix = ">"              -- Prefix to send chat to bo
 -- Visual Effects Settings
 local enable_text_shake = true                      -- Toggle for text shake effect
 local shake_intensity = 0.1                         -- Base shake amount (higher = more shake)
-local caps_shake_multiplier = 7                     -- Extra shake when ENTIRE MESSAGE is ALL-CAPS
+local caps_shake_multiplier = 10                     -- Extra shake when ENTIRE MESSAGE is ALL-CAPS
 local enable_outline = true                         -- Enable text outline
 local outline_color = {0.0, 0.0, 0.0}               -- Outline color (RGB, 0-1)
 local enable_shadow = true                          -- Enable text shadow
 local enable_see_through = true                     -- Make text visible through blocks
 local enable_text_hover = true                      -- Makes text gently hover/sway
 local hover_intensity = 10.0                         -- How much the text sways (higher = more sway)
-local hover_speed = 10.00                            -- Speed of the hover/sway (lower = slower, higher = faster)
+local hover_speed = 0.20                            -- Speed of the hover/sway (lower = slower, higher = faster)
 
 -- Text Display Settings
 local chars_delay = 1                               -- Typing speed (lower = faster, higher = slower)
