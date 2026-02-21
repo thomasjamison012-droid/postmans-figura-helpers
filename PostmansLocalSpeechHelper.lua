@@ -36,7 +36,7 @@ local text_bold = false                             -- Enable bold text formatti
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
-local typing_sound = "block.copper_bulb.step"       -- Sound for typing (You can use MC sounds, or sound files)
+local typing_sound = "block.note_block.basedrum"       -- Sound for typing (You can use MC sounds, or sound files)
 local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
@@ -72,8 +72,8 @@ local hold_time_multiplier = 1.5                    -- Overall multiplier for ca
 local minimum_hold_time = 100                       -- Minimum message hold time in ticks (prevents short messages from disappearing too quickly)
 
 -- Typing Indicator Settings
-local enable_typing_indicator = true                -- Enable a typing indicator when your textbox is open
-local typing_indicator_text = "I am typing"         -- Base text for typing indicator
+local enable_typing_indicator = false                -- Enable a typing indicator when your textbox is open
+local typing_indicator_text = "Thinking..."         -- Base text for typing indicator
 local typing_indicator_scale = 0.4                  -- Size of typing indicator text
 local typing_indicator_x = 10                       -- X position relative to player
 local typing_indicator_y = 25                       -- Y position relative to player
