@@ -73,7 +73,7 @@ local minimum_hold_time = 100                       -- Minimum message hold time
 
 -- Typing Indicator Settings
 local enable_typing_indicator = false                -- Enable a typing indicator when your textbox is open
-local typing_indicator_text = "I am typing"         -- Base text for typing indicator
+local typing_indicator_text = "Thinking..."         -- Base text for typing indicator
 local typing_indicator_scale = 0.4                  -- Size of typing indicator text
 local typing_indicator_x = 10                       -- X position relative to player
 local typing_indicator_y = 25                       -- Y position relative to player
