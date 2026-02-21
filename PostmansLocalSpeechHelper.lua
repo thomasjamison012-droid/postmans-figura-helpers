@@ -25,7 +25,7 @@ local model_path = models.localspeech    -- Path to the localspeech model
 
 -- Text Appearance Settings
 local hide_nameplate_during_speech = true           -- Hide nameplate while text is showing
-local default_text_color = "#FFFFFF"              -- Default color for uncolored text (hex format)
+local default_text_color = "#272757"              -- Default color for uncolored text (hex format)
 local text_scale = 0.4                              -- Size of the text (higher = bigger)
 local text_x_position = -19                         -- X position of text (-30 is default)
 local text_y_position = 28                          -- Y position of text (20 is default)
@@ -36,7 +36,7 @@ local text_bold = false                             -- Enable bold text formatti
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
-local typing_sound = "block.copper_bulb.step"       -- Sound for typing (You can use MC sounds, or sound files)
+local typing_sound = "block.note_block.basedrum"       -- Sound for typing (You can use MC sounds, or sound files)
 local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
@@ -72,8 +72,8 @@ local hold_time_multiplier = 1.5                    -- Overall multiplier for ca
 local minimum_hold_time = 100                       -- Minimum message hold time in ticks (prevents short messages from disappearing too quickly)
 
 -- Typing Indicator Settings
-local enable_typing_indicator = true                -- Enable a typing indicator when your textbox is open
-local typing_indicator_text = "I am typing"         -- Base text for typing indicator
+local enable_typing_indicator = false                -- Enable a typing indicator when your textbox is open
+local typing_indicator_text = "thinking..."         -- Base text for typing indicator
 local typing_indicator_scale = 0.4                  -- Size of typing indicator text
 local typing_indicator_x = 10                       -- X position relative to player
 local typing_indicator_y = 25                       -- Y position relative to player
@@ -196,7 +196,7 @@ local gradient_words = {
     ["unplsnt_gradient"] = {"#25d22b", "#ff3afc", "#9e5206"},
     ["gradient"] = {"#25d22b", "#ff3afc", "#9e5206"},
     ["colors"] = {"#25d22b", "#ff3afc", "#9e5206"},
-    ["carson"] = {"#990000", "#FFB0B0", "#888888"},
+    ["king"] = {"#990000", "#FFB0B0", "#888888"},
 
     -- Pride Flag Gradients
     ["pride"] = {"#e40303", "#ff8c00", "#ffed00", "#008018", "#004cff", "#732982"},  -- Original Pride/Rainbow
