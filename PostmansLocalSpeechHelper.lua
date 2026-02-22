@@ -36,7 +36,7 @@ local text_bold = false                             -- Enable bold text formatti
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
-local typing_sound = "block.copper_bulb.step"       -- Sound for typing (You can use MC sounds, or sound files)
+local typing_sound = "voice_sans.ogg"       -- Sound for typing (You can use MC sounds, or sound files)
 local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
