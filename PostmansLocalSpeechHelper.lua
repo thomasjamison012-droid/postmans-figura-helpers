@@ -25,7 +25,7 @@ local model_path = models.localspeech    -- Path to the localspeech model
 
 -- Text Appearance Settings
 local hide_nameplate_during_speech = true           -- Hide nameplate while text is showing
-local default_text_color = "#FFFFFF"              -- Default color for uncolored text (hex format)
+local default_text_color = "#ff4000", "#ff8000", "#ffff00", "#ff8040"             -- Default color for uncolored text (hex format)
 local text_scale = 0.4                              -- Size of the text (higher = bigger)
 local text_x_position = -19                         -- X position of text (-30 is default)
 local text_y_position = 28                          -- Y position of text (20 is default)
@@ -36,8 +36,8 @@ local text_bold = false                             -- Enable bold text formatti
 local text_light_level = 15                         -- Light level for text (0-15)
 
 -- Typing Sound Settings
-local typing_sound = "voice_sans"       -- Sound for typing (You can use MC sounds, or sound files)
-local normal_pitch_range = {50, 80}                 -- Pitch range for normal typing sounds
+local typing_sound = "block.note_block.basedrum"       -- Sound for typing (You can use MC sounds, or sound files)
+local normal_pitch_range = {30, 60}                 -- Pitch range for normal typing sounds
 local dots_pitch_range = {10, 30}                   -- Pitch range for dot sounds (lower = deeper)
 local dots_slowdown_multiplier = 10                 -- Dramatic pause for dots (higher = longer pause)
 local sound_volume = 0.5                            -- Volume of typing sounds (0-1)
@@ -49,8 +49,8 @@ local globalandlocal_chat_prefix = ">"              -- Prefix to send chat to bo
 
 -- Visual Effects Settings
 local enable_text_shake = true                      -- Toggle for text shake effect
-local shake_intensity = 0.1                         -- Base shake amount (higher = more shake)
-local caps_shake_multiplier = 7                     -- Extra shake when ENTIRE MESSAGE is ALL-CAPS
+local shake_intensity = 0.3                         -- Base shake amount (higher = more shake)
+local caps_shake_multiplier = 10                     -- Extra shake when ENTIRE MESSAGE is ALL-CAPS
 local enable_outline = true                         -- Enable text outline
 local outline_color = {0.0, 0.0, 0.0}               -- Outline color (RGB, 0-1)
 local enable_shadow = true                          -- Enable text shadow
@@ -72,8 +72,8 @@ local hold_time_multiplier = 1.5                    -- Overall multiplier for ca
 local minimum_hold_time = 100                       -- Minimum message hold time in ticks (prevents short messages from disappearing too quickly)
 
 -- Typing Indicator Settings
-local enable_typing_indicator = true                -- Enable a typing indicator when your textbox is open
-local typing_indicator_text = "I am typing"         -- Base text for typing indicator
+local enable_typing_indicator = false                -- Enable a typing indicator when your textbox is open
+local typing_indicator_text = "thinking"         -- Base text for typing indicator
 local typing_indicator_scale = 0.4                  -- Size of typing indicator text
 local typing_indicator_x = 10                       -- X position relative to player
 local typing_indicator_y = 25                       -- Y position relative to player
@@ -97,40 +97,40 @@ local typing_indicator_alignment = "LEFT"           -- Alignment: "LEFT", "CENTE
 -- Certain words in this list are from me (Postman67's) personal preferences and experiences, feel free to modify or remove them as you see fit.
 
 local color_words = {
-    ["yellow"] = "#fff200",
-    ["aga"] = "#fff200",
-    ["minecraft"] = "#fff200",
-    ["join"] = "#fff200",
-    ["bird"] = "#fff200",
-    ["key"] = "#fff200",
-    ["item"] = "#fff200",
-    ["cool"] = "#fff200",
-    ["piss"] = "#fff200",
-    ["gold"] = "#fff200",
-    ["must"] = "#fff200",
-    ["ball"] = "#fff200",
-    ["love"] = "#fff200",
+    ["fuck"] = "#ff0000",
+    ["shit"] = "#ff0000",
+    ["bastard"] = "#ff0000",
+    ["detonation"] = "#ff0000",
+    ["detonate"] = "#ff0000",
+    ["eruption"] = "#ff0000",
+    ["erupt"] = "#ff0000",
+    ["boom"] = "#ff0000",
+    ["piss"] = "#ff0000",
+    ["bang"] = "#ff0000",
+    ["combustion"] = "#ff0000",
+    ["whack"] = "#fff200",
+    ["blaze"] = "#ff0000", "#ff4000", "#ff8000", "#ffff00"
     ["jesus"] = "#fff200",
     ["much"] = "#fff200",
-    ["depress"] = "#fff200",
-    ["big"] = "#fff200",
+    ["burn"] = "#ff0000", "#ff4000", "#ff8000", "#ffff00"
+    ["incinerate"] = "#ff0000", "#ff4000", "#ff8000", "#ffff00"
     ["definitely"] = "#fff200",
     ["fabulous"] = "#fff200",
-    ["bee"] = "#fff200",
-    [":3"] = "#fff200",
+    ["bombardment"] = "#ff0000",
+    ["loser"] = "#ff0000",
     ["red"] = "#ff0000",
-    ["loki"] = "#ff0000",
+    ["firepower"] = "#ff0000",
     ["run"] = "#ff0000",
     ["dead"] = "#ff0000",
     ["death"] = "#ff0000",
     ["died"] = "#ff0000",
     ["die"] = "#ff0000",
-    ["brutus"] = "#ff0000",
-    ["2001"] = "#ff0000",
-    ["9/11"] = "#ff0000",
+    ["arson"] = "#ff0000", "#ff4000", "#ff8000", "#ffff00"
+    ["pig"] = "#ff0000",
+    ["whimp"] = "#ff0000",
     ["genocide"] = "#ff0000",
     ["hate"] = "#ff0000",
-    ["redstone"] = "#ff0000",
+    ["slaughter"] = "#ff0000",
     ["blood"] = "#ff0000",
     ["kill"] = "#ff0000",
     ["sucks"] = "#ff0000",
